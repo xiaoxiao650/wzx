@@ -1,0 +1,300 @@
+body{
+	background-color: #FFFFFF;
+}
+/*header begin*/
+header{
+     width: 16rem;
+     box-sizing: border-box;
+     height:2.2rem;
+     background-color: #FFFFFF;
+     line-height:2.2rem;
+}
+ header .logo{
+    width:5.275rem;
+    height:1.55rem;
+    margin-left:5.05rem;
+}
+ header .xx{
+     display: inline-block;
+     font-size:1rem;
+     margin-right: 0.475rem;
+     color:#0760E5;
+}
+/*header end*/
+/*nav1 begin*/
+.nav1{
+    width:16rem;
+    height:34.675rem;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    display: none;
+}
+.nav_top{
+    width:16rem;
+    height:2.2rem;
+    line-height: 2.2rem;
+    position: relative;
+}
+.nav_top .logo{
+   width:5.275rem;
+    height:1.55rem;
+    margin-left:5.05rem;
+}
+.nav1 .nav_top span{
+     display: inline-block;
+     font-size: 1rem;
+     margin-right: 0.475rem;
+     color:#0760E5;
+}
+.nav1 .nav_zhong{
+    width:16rem;
+    margin-top: 5.1rem;
+}
+.nav1 .nav_zhong li{
+    font-weight: bold;
+    margin-bottom:2rem;
+    text-align: center;
+}
+.nav_zhong a{
+    color: #0760E5;
+    font-size: 0.9rem;
+}
+.nav_xia{
+    width:7.6rem;
+    margin-left: 4.5rem;
+}
+.nav_xia .phone{
+    font-size: 1.7rem;
+    color: #A0C1F3;
+}
+.nav_xia p{
+    font-size: 0.45rem;
+    color: #2879E7;
+    margin-left:2.225rem;
+}
+/*nav1 end*/
+/*banner begin*/
+.banner{
+     width:16rem;
+     height:6.95rem;
+     position:relative;
+     overflow: hidden;
+ }
+ .banner ul{
+    width:16rem;
+    height: 6.95rem;
+    position: absolute;
+    left: 0; top: 0;
+}
+.banner ul li{
+    float: left;
+}
+.banner ul li img{
+    width: 100%;
+    height: 100%;
+}
+ /*banner end*/
+/*nav begin*/
+.nav{
+     width:15.075rem;
+     margin-left:0.45rem;
+     height:4.3rem;
+     line-height: 4.3rem;
+}
+ .nav .shang{
+     height: 2.725rem;
+     position: relative;
+}
+ .nav .shang .zuo{
+     position: absolute;
+     top:-0.775rem;
+     left: 0;
+     width: 3.5rem;
+     height: 3.5rem;
+     line-height: 3.5rem;
+     text-align: center;
+     background-color:#1B6AE6;
+}
+ .nav .zuo .top{
+     height: 1.55rem;
+     line-height:1.55rem;
+}
+.nav .top .p1{
+     color:#FFFFFF;
+     line-height: 0.05rem;
+     font-size:0.8rem;
+     display:inline-block;
+}
+.nav .top span{
+     font-size: 0.8rem;
+     color: #E9F0FD;
+     padding:0 0.375rem 0 0.3rem;
+}
+.nav .zuo .bottom{
+     height: 1.95rem;
+     line-height: 1.95rem;
+}
+ .nav .bottom .p2{
+     font-size: 0.6rem;
+     color: #EEF3FD;
+     text-align: center;
+}
+ .nav .you{
+     width: 3.35rem;
+     height: 2.725rem;
+     line-height: 2.725rem;
+     position: absolute;
+     top: 0; left: 4.25rem;
+}
+ .nav .you span{
+     line-height: 0.45rem;
+     font-size:0.6rem;
+     color: #333333;
+     margin-right:0.525rem;
+}
+ .nav .you li{
+     color: #515151;
+     font-size: 0.55rem;
+}
+ .nav .xia{
+     height:1.575rem;
+     line-height: 1.575rem;
+     border-bottom: 0.025rem solid #EBEBEB;
+}
+ .nav .xia li{
+     width: 2.5rem;
+     height: 1.55rem;
+     line-height: 1.55rem;
+     text-align: center;
+     font-size: 0.5rem;
+     float: left;
+     margin-right:1.175rem;
+}
+ .nav .xia a{
+     color: #4E4E4E;
+}
+.nav .xia .active{
+     border-bottom: 0.05rem solid #1259E6;
+}
+.nav .xia .active a{
+     color:#497FEC;
+}
+.nav .xia li:hover{
+     border-bottom: 0.05rem solid #1259E6;
+}
+.nav .xia li a:hover{
+     color:#497FEC;
+}
+/*nav end*/
+/*content begin*/
+.content{
+     width: 15.075rem;
+     margin-left: 0.45rem;
+}
+ .content .shang{
+     margin-top: 0.975rem;
+}
+ .content .shang li{
+     width:13.95rem;
+     height:11.425rem;
+     margin-left:0.55rem;
+     border:0.05rem solid #E7E7E7;
+}
+ .content .shang li img{
+     width: 14.05rem;
+     height: 8.725rem;
+}
+ .content .shang li p{
+     margin-top: 0.55rem;
+     margin-left: 0.575rem;
+     color: #494949;
+     font-size: 0.6rem;
+}
+ .content .shang li span{
+     color: #9E9E9E;
+     font-size:0.7rem;
+     line-height: 0.625rem;
+     margin-left: 0.6rem;
+     margin-top:0.8rem;
+}
+.content .shang .li1{
+     margin-bottom: 0.75rem;
+}
+.content .shang .li2{
+     position: relative;
+}
+.content .xia{
+     width: 14.05rem;
+     height: 1.35rem;
+     margin-top: 0.975rem;
+     margin-bottom: 1.35rem;
+}
+ .content .xia li{
+     float: left;
+     width: 3.475rem;
+     height:1.35rem;
+     line-height: 1.35rem;
+     text-align: center;
+     background-color: #1259E6;
+     color: #F4F7FE;
+     font-size: 0.55rem;
+}
+ .content .xia .li3{
+     margin-left:3.25rem;
+     margin-right:0.575rem;
+}
+/*content end*/
+/*侧边栏开始*/
+.aa{
+    position: fixed;
+    right: 2%;
+    bottom: 1%;
+    width: 2.5rem
+}
+.aa ul{
+    width:2.325rem;
+    height:8.65rem;
+}
+.aa li{
+    width:2.375rem;
+    height:2.375rem;
+    background-color: #0760E5;
+    font-size: 0.5rem;
+    color:#FFFFFF;
+    margin-bottom:0.1rem;
+}
+.aa  li .f1{
+    margin-left:0.2rem;
+}
+.aa  li span{
+    font-size:0.975rem;
+    margin:0.7rem;
+    line-height: 1.5rem;
+}
+/*侧边栏结束*/
+/*footer begin*/
+footer{
+     width: 16rem;
+     height:4.25rem;
+     background-color: #4A4A4A;
+}
+ footer p{
+     margin-left:0.45rem;
+     font-size:0.5rem;
+     color: #B4B3B3;
+     line-height:1.1rem;
+}
+ footer .span1{
+     margin-left:0.35rem;
+     margin-right:0.575rem;
+}
+ footer .span2{
+     margin-left:0.35rem;
+}
+ footer .span3{
+     margin-left:0.3rem;
+}
+/*footer end*/ 

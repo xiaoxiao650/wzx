@@ -1,0 +1,617 @@
+body{
+	background-color: #F3F3F3;
+}
+/*header begin*/
+header{
+     width: 16rem;
+     box-sizing: border-box;
+     height:2.2rem;
+     background-color: #FFFFFF;
+     line-height:2.2rem;
+}
+ header .logo{
+    width:5.275rem;
+    height:1.55rem;
+    margin-left:5.05rem;
+}
+ header .xx{
+     display: inline-block;
+     font-size:1rem;
+     margin-right: 0.475rem;
+     color:#0760E5;
+}
+/*header end*/
+/*nav1 begin*/
+.nav1{
+    width:16rem;
+    height:34.675rem;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    display: none;
+}
+.nav_top{
+    width:16rem;
+    height:2.2rem;
+    line-height: 2.2rem;
+    position: relative;
+}
+.nav_top .logo{
+   width:5.275rem;
+    height:1.55rem;
+    margin-left:5.05rem;
+}
+.nav1 .nav_top span{
+     display: inline-block;
+     font-size: 1rem;
+     margin-right: 0.475rem;
+     color:#0760E5;
+}
+.nav1 .nav_zhong{
+    width:16rem;
+    margin-top: 5.1rem;
+}
+.nav1 .nav_zhong li{
+    font-weight: bold;
+    margin-bottom:2rem;
+    text-align: center;
+}
+.nav_zhong a{
+    color: #0760E5;
+    font-size: 0.9rem;
+}
+.nav_xia{
+    width:7.6rem;
+    margin-left: 4.5rem;
+}
+.nav_xia .phone{
+    font-size: 1.7rem;
+    color: #A0C1F3;
+}
+.nav_xia p{
+    font-size: 0.45rem;
+    color: #2879E7;
+    margin-left:2.225rem;
+}
+/*nav1 end*/
+/*banner begin*/
+.banner{
+     width:16rem;
+     height:7.725rem;
+     position:relative;
+     overflow: hidden;
+ }
+ .banner ul{
+     width:16rem;
+    height:7.725rem;
+    position: absolute;
+    left: 0; 
+    top: 0;
+}
+.banner ul li{
+    float: left;
+}
+.banner ul li img{
+    width: 100%;
+    height: 100%;
+}
+.banner .prev{
+    width:1.225rem;
+    height:1.775rem;
+    text-align: center;
+    line-height:1.775rem;
+    position: absolute;
+    top:40%; left:0.475rem;
+    background: rgba(0, 0, 0, .2);
+}
+.banner .next{
+     width:1.225rem;
+    height:1.775rem;
+    text-align: center;
+    line-height:1.775rem;
+    position: absolute;
+    top:40%; right:0.475rem;
+    background: rgba(100, 99, 99, 0.2);
+}
+.banner a{
+    color: #FFFFFF;
+}
+/*banner end*/
+/*content1 begin*/
+.content1{
+     width:15.075rem;
+     margin-left: 0.45rem;
+     margin-top:0.775rem;
+     background-color:#FDFDFE;
+}
+ .content1 .shang{
+     margin:0 auto;
+     text-align: center;
+     height: 10.45rem;
+}
+ .content1 .shang img{
+ 	width:1.9rem;
+ 	height:1.875rem;
+     margin-top:0.575rem;
+}
+ .content1 .shang h4{
+     font-size: 0.55rem;
+     color: #333333;
+     margin-top:0.525rem;
+     font-weight: normal;
+}
+ .content1 .shang .p1{
+     font-weight: normal;
+     font-size: 0.6rem;
+     color: #CBCBCC;
+     text-align: center;
+     margin-top: 0.35rem;
+}
+ .content1 .shang h3{
+     text-align: left;
+     font-size:0.7rem;
+     color:#367EEA;
+     margin-left: 0.6rem;
+     margin-top:0.7rem;
+}
+ .content1 .shang .p2{
+     width: 13.9rem;
+     text-align: left;
+     margin-left:0.55rem;
+     margin-top:0.55rem;
+     font-weight: normal;
+     font-size:0.55rem;
+     color: #333333;
+     line-height:0.7rem;
+}
+ .content1 .xia{
+ 	height: 5.625rem;
+     margin-top:2.3rem;
+     position: relative;
+}
+ .content1 .xia h5{
+     position: absolute;
+     top:-1.375rem;
+     left:1.1rem;
+     width:11.625rem;
+     height:1.975rem;
+     font-size:0.5rem;
+     line-height:1.975rem;
+     text-align: center;
+     background-color:#165EE6;
+     color:#E7EFFC;
+}
+.content1 .xia img{
+	width:6.95rem;
+	height:4.675rem;
+}
+.content1 .xia .img1{
+     margin-left:0.375rem;
+}
+/*content1 end*/
+/*content2 begin*/
+ .content2{
+     width:15.075rem;
+     height:3.375rem;
+     line-height: 3.375rem;
+     margin-left:0.45rem;
+     background-color: #FFFFFF;
+}
+ .content2 span{
+     display:inline-block;
+     font-size:1.225rem;
+}
+ .content2 .zuo{
+     margin-left:5.925rem;
+     color:#0760E5;
+}
+ .content2 .you{
+     margin-right:5.875rem;
+     color:#0760E5 ;
+}
+/*content2 end*/
+/*content3 begin*/
+.content3{
+     width: 16rem;
+     height:11.95rem;
+     position: relative;
+}
+.content3 img{
+	width: 16rem;
+	height: 11.95rem;
+}
+.content3 h3{
+     position: absolute;
+     top:0.875rem;
+     left:5.6rem;
+     color:#FFFFFF;
+     font-size:0.6rem;
+}
+ .content3 .p3{
+     position: absolute;
+     top:2.3rem;
+     left:0.725rem;
+     color:#FFFFFF;
+     font-size: 0.5rem;
+}
+ .content3 .p4{
+     width:15rem;
+     height: 4.65rem;
+     line-height:1rem;
+     position: absolute;
+     top:3.825rem;
+     left:0.45rem;
+     color:#FFFFFF;
+     font-size:0.6rem;
+}
+ .content3 .h1{
+     width:7.7rem;
+     height:1.625rem;
+     line-height:1.625rem;
+     position: absolute;
+     bottom:0.95rem;
+     left:4.15rem;
+     background-color:#2375E6;
+     border-radius:0.55rem;
+     text-align: center;
+     color:#E0EAFC;
+     font-size:0.45rem;
+}
+ .content3 .h1 span{
+     margin-left:0.325rem;
+}
+/*content3 end*/
+/*content4 begin*/
+.content4{
+     width:15.075rem;
+     margin-left:0.45rem;
+}
+ .content4 .shang{
+     height:2.625rem;
+     line-height:2.625rem;
+}
+ .content4 em{
+     width: 0.2rem;
+     height:0.2rem;
+     display: inline-block;
+     background-color: #D2D2D2;
+     border-radius: 50%;
+}
+ .content4 .shang .em1{
+     margin-left:2.25rem;
+     margin-right:0.325rem;
+}
+ .content4 .shang .em2{
+     margin-left:0.375rem;
+     margin-right:2.225rem;
+}
+ .content4 .shang h4{
+     display: inline;
+     font-size:0.6rem;
+     color: #636363;
+}
+ .content4 .shang .active{
+     color:#0861E5;
+}
+ .content4 .shang h4:hover{
+     color:#0861E5;
+}
+ .content4 .shang span{
+     font-size:0.6rem;
+     padding:0 0.375rem;
+}
+ .content4 .zhong h5{
+     height:2.175rem;
+     line-height:2.175rem;
+     color: #636363;
+     font-size: 0.5rem;
+     text-align: center;
+}
+ .content4 .xia h5{
+     height:2.325rem;
+     line-height:2.325rem;
+     color: #636363;
+     font-size: 0.5rem;
+     text-align: center;
+}
+.content4 .zhong img, .content4 .xia img{
+	width:15.075rem;
+	height:9.35rem; 
+}
+/*content4 end*/
+.main{
+	width:16rem;
+	background-color: #FFFFFF;
+}
+/*攻略新闻资讯开始*/
+.news .shang{
+     margin-left: 0.45rem;
+     width: 15.075rem;
+     height: 7.225rem;
+}
+ .news .shang h4{
+     text-align: center;
+     font-size:0.6rem;
+     padding-top:1.125rem;
+     color: #333333;
+}
+ .news .shang p{
+     text-align: center;
+     width:14.6rem;
+     line-height:0.775rem;
+     margin-top:0.625rem;
+     font-size: 0.55rem;
+     color:#AEAEAE;
+     margin-left:0.275rem;
+}
+ .news .shang ul{
+     margin-top:1rem;
+}
+ .news .shang li{
+     width:4.65rem;
+     height: 1.575rem;
+     line-height:1.575rem;
+     text-align: center;
+     background-color: #F3F3F3;
+     color: #636363;
+     float: left;
+     font-size:0.45rem;
+}
+ .news .shang .li1{
+     margin-left:0.525rem;
+     margin-right: 0.575rem;
+}
+ .news .shang .active{
+     background-color: #2376E6;
+     color: #FFF;
+}
+ .news .shang li:hover{
+     background-color: #2376E6;
+     color: #FFF;
+}
+ .news .zhong{
+     width: 15.075rem;
+     margin-left:0.45rem;
+}
+ .news .zhong h4{
+     line-height:1.925rem;
+     color:#5C5C5C;
+     border-bottom: 0.025rem solid #E4E3E3;
+     font-size:0.6rem;
+}
+ .news .zhong p{
+     line-height:0.95rem;
+     color: #B8B8B8;
+     font-size: 0.55rem;
+}
+ .news .zhong .p1{
+     margin-top:0.55rem;
+}
+ .news .zhong .p2{
+     margin-bottom: 1rem;
+}
+.news .zhong .img3{
+	width:15.075rem;
+	height:9.075rem;
+}
+ .news .xia{
+     height:8.225rem;
+     background-color:#155CE6;
+}
+ .news .xia li{
+     float: left;
+     margin:0 auto;
+     text-align: center;
+}
+ .news .xia li h5{
+     font-size:0.8rem;
+     color: #FFFFFF;
+}
+ .news .xia li span{
+     margin-left:0.325rem;
+     display: inline-block;
+     font-size:0.7rem;
+     color: #85B0F1;
+}
+ .news .xia li p{
+     font-size: 0.45rem;
+     color:#E0ECFB;
+     margin-top:0.55rem;
+}
+ .news .xia .li1{
+     margin-right:3rem;
+}
+ .news .xia .li3{
+     margin-right:2.325rem;
+}
+ .news .xia .li1, .news .xia .li2{
+     margin-top:0.975rem;
+}
+ .news .xia .li3, .news .xia .li4{
+     margin-top:1.55rem;
+}
+ .news .xia .li1 p,.news .xia .li3 p{
+     margin-left:0.85rem;
+}
+/*攻略新闻资讯结束*/
+.liuyan{
+	width:16rem;
+	background-color: #F5F5F5;
+}
+/*留言问答开始*/
+.wenda{
+     width:15.075rem;
+     margin-left:0.45rem;
+}
+ .wenda .shang{
+     height:2.75rem;
+     line-height:2.75rem;
+     border-bottom: 0.025rem solid #DADADA;
+}
+ .wenda .shang h4{
+     color:#5C5C5C;
+     font-size:0.6rem;
+     font-weight: normal;
+}
+ .wenda .shang p{
+     color: #C3C3C3;
+     font-size:0.5rem;
+}
+ .wenda .shang span{
+     font-size: 0.55rem;
+     color:#367DE8;
+     margin-left:0.3rem;
+     margin-right: 0.2rem;
+}
+ .wenda .xia li span{
+     margin-top:0.975rem;
+}
+ .wenda .xia li .span1{
+     font-size: 0.75rem;
+     color: #0760E5;
+     display: inline-block;
+}
+ .wenda .xia li .sa{
+     display:inline-block;
+     font-size:0.65rem;
+     margin-left:0.375rem;
+     color: #414141;
+}
+ .wenda .xia li .p3{
+     font-size:0.5rem;
+     margin-left:0.7rem;
+     margin-top:0.55rem;
+     color: #B8B8B8;
+}
+ .wenda .xia .p3 span{
+     margin-left: 1.1rem;
+}
+ .wenda .xia .p4{
+     width: 13.925rem;
+     font-size: 0.55rem;
+     color: #7E7E7E;
+     margin-top:0.55rem;
+     margin-left:1.125rem;
+     line-height:0.8rem;
+}
+/*留言问答结束*/
+/*在线留言开始*/
+ .zaixian{
+     margin-left: 0.45rem;
+     position: relative;
+}
+ .zaixian h5{
+     line-height: 2.725rem;
+     font-size: 0.7rem;
+     border-bottom:0.025rem solid #DADADA;
+}
+form{
+    height:15.075rem;
+}
+form input{
+    width: 15.075rem;
+    height: 1.55rem;
+    line-height: 1.55rem;
+    box-sizing: border-box;
+    border-radius:4px;
+    border: none;
+    background: #F0F0F3;
+    outline:none;
+    text-indent:2em;
+    margin-top: 1rem;
+}
+form .yanzm{
+    width: 11.6rem;
+}
+form img{
+    width:3.15rem;
+    height:1.575rem;
+    vertical-align: bottom;
+    transform: translateX(0.325rem);
+}
+form textarea{
+    width: 15.075rem;
+    height:3.875rem;
+    border-radius:4px;
+    border: none;
+    background: #F0F0F3;
+    outline:none;
+    text-indent:2em;
+    margin-top: 0.95rem;
+}
+.zaixian .p1{
+     height:1.75rem;
+     line-height: 1.75rem;
+     border-radius: 0.125rem;
+     background-color: #1E6BE6;
+     font-size: 0.55rem;
+     color: #DFEAFB;
+     text-align: center;
+     margin-top: 0.95rem;
+}
+.zaixian .p2{
+     height: 1.35rem;
+     line-height: 1.35rem;
+     text-align: center;
+     font-size: 0.6rem;
+}
+.zaixian .aaa{
+     position: absolute;
+     top:0; right:0.45rem;
+     width:2.325rem;
+     height:8.65rem;
+}
+/*在线留言结束*/
+/*侧边栏开始*/
+.aa{
+    position: fixed;
+    right: 2%;
+    bottom: 1%;
+    width: 2.5rem
+}
+.aa ul{
+    width:2.325rem;
+    height:8.65rem;
+}
+.aa li{
+    width:2.375rem;
+    height:2.375rem;
+    background-color: #0760E5;
+    font-size: 0.5rem;
+    color:#FFFFFF;
+    margin-bottom:0.1rem;
+}
+.aa  li .f1{
+    margin-left:0.2rem;
+}
+.aa  li span{
+    font-size:0.975rem;
+    margin:0.7rem;
+    line-height: 1.5rem;
+}
+/*侧边栏结束*/
+/*footer begin*/
+footer{
+     width: 16rem;
+     height:4.25rem;
+     background-color: #4A4A4A;
+}
+ footer p{
+     margin-left:0.45rem;
+     font-size:0.5rem;
+     color: #B4B3B3;
+     line-height:1.1rem;
+}
+ footer .span1{
+     margin-left:0.35rem;
+     margin-right:0.575rem;
+}
+ footer .span2{
+     margin-left:0.35rem;
+}
+ footer .span3{
+     margin-left:0.3rem;
+}
+/*footer end*/ 

@@ -1,0 +1,466 @@
+body{
+	background-color: #FFFFFF;
+}
+/*header begin*/
+header{
+     width: 16rem;
+     box-sizing: border-box;
+     height:2.2rem;
+     background-color: #FFFFFF;
+     line-height:2.2rem;
+}
+ header .logo{
+    width:5.275rem;
+    height:1.55rem;
+    margin-left:5.05rem;
+}
+ header .xx{
+     display: inline-block;
+     font-size:1rem;
+     margin-right: 0.475rem;
+     color:#0760E5;
+}
+/*header end*/
+/*nav1 begin*/
+.nav1{
+    width:16rem;
+    height:34.675rem;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    display: none;
+}
+.nav_top{
+    width:16rem;
+    height:2.2rem;
+    line-height: 2.2rem;
+    position: relative;
+}
+.nav_top .logo{
+   width:5.275rem;
+    height:1.55rem;
+    margin-left:5.05rem;
+}
+.nav1 .nav_top span{
+     display: inline-block;
+     font-size: 1rem;
+     margin-right: 0.475rem;
+     color:#0760E5;
+}
+.nav1 .nav_zhong{
+    width:16rem;
+    margin-top: 5.1rem;
+}
+.nav1 .nav_zhong li{
+    font-weight: bold;
+    margin-bottom:2rem;
+    text-align: center;
+}
+.nav_zhong a{
+    color: #0760E5;
+    font-size: 0.9rem;
+}
+.nav_xia{
+    width:7.6rem;
+    margin-left: 4.5rem;
+}
+.nav_xia .phone{
+    font-size: 1.7rem;
+    color: #A0C1F3;
+}
+.nav_xia p{
+    font-size: 0.45rem;
+    color: #2879E7;
+    margin-left:2.225rem;
+}
+/*nav1 end*/
+/*banner begin*/
+.banner{
+     width:16rem;
+     height:6.95rem;
+     position:relative;
+     overflow: hidden;
+ }
+ .banner ul{
+     width:16rem;
+    height: 6.95rem;
+    position: absolute;
+    left: 0; top: 0;
+}
+.banner ul li{
+    float: left;
+}
+.banner ul li img{
+    width: 100%;
+    height: 100%;
+}
+ /*banner end*/
+/*nav begin*/
+.nav{
+     width:15.075rem;
+     margin-left:0.45rem;
+     height:4.3rem;
+     line-height: 4.3rem;
+}
+ .nav .shang{
+     height: 2.725rem;
+     position: relative;
+}
+ .nav .shang .zuo{
+     position: absolute;
+     top:-0.775rem;
+     left: 0;
+     width: 3.5rem;
+     height: 3.5rem;
+     line-height: 3.5rem;
+     text-align: center;
+     background-color:#1B6AE6;
+}
+ .nav .zuo .top{
+     height: 1.55rem;
+     line-height:1.55rem;
+}
+ .nav .top .p1{
+     color:#FFFFFF;
+     line-height: 0.05rem;
+     font-size:0.8rem;
+     display:inline-block;
+}
+ .nav .top span{
+     font-size: 0.8rem;
+     color: #E9F0FD;
+     padding:0 0.375rem 0 0.3rem;
+}
+ .nav .zuo .bottom{
+     height: 1.95rem;
+     line-height: 1.95rem;
+}
+ .nav .bottom .p2{
+     font-size: 0.6rem;
+     color: #EEF3FD;
+     text-align: center;
+}
+ .nav .you{
+     width: 3.35rem;
+     height: 2.725rem;
+     line-height: 2.725rem;
+     position: absolute;
+     top: 0; left: 4.25rem;
+}
+ .nav .you span{
+     line-height: 0.45rem;
+     font-size:0.6rem;
+     color: #333333;
+     margin-right:0.525rem;
+}
+ .nav .you li{
+     color: #515151;
+     font-size: 0.55rem;
+}
+ .nav .xia{
+     height:1.575rem;
+     line-height: 1.575rem;
+     border-bottom: 0.025rem solid #EBEBEB;
+}
+ .nav .xia li{
+     width: 2.5rem;
+     height: 1.55rem;
+     line-height: 1.55rem;
+     text-align: center;
+     font-size: 0.5rem;
+     float: left;
+     margin-right:1.175rem;
+}
+ .nav .xia a{
+     color: #4E4E4E;
+}
+.nav .xia .active{
+     border-bottom: 0.05rem solid #1259E6;
+}
+.nav .xia .active a{
+     color:#497FEC;
+}
+.nav .xia li:hover{
+     border-bottom: 0.05rem solid #1259E6;
+}
+.nav .xia li a:hover{
+     color:#497FEC;
+}
+/*nav end*/
+/*content1 begin*/
+.content1{
+     width:15.075rem;
+     margin-left:0.45rem;
+     height: 20.1rem;
+     margin-top:0.925rem;
+}
+ .contgent1 .shang{
+     height: 4.1rem;
+}
+.content1 .shang .aaa{
+     display: inline-block;
+     width: 108px;
+     height: 2px;
+     background-color: #E1E0E0;
+     margin-left: 34px;
+}
+ .content1 .shang h5{
+     height: 0.775rem;
+     color:#393939;
+     font-size: 0.65rem;
+}
+ .content1 .shang span{
+     color: #3270E9;
+}
+ .content1 .shang p{
+     width: 14.55rem;
+     height: 2.625rem;
+     color: #5B5B5B;
+     font-size: 0.6rem;
+     line-height: 1.025rem;
+     margin-top: 0.7rem;
+}
+ .content1 .xia{
+     margin-top: 0.925rem;
+     height: 15.075rem;
+}
+ .content1 .xia li{
+     width: 7.15rem;
+     height: 7.15rem;
+     margin:0 auto;
+     text-align: center;
+     float: left;
+     background-color: #F3F4F8;
+     color: #333333;
+}
+ .content1 .xia h5{
+     font-size: 0.65rem;
+     color: #757576;
+     margin-top: -0.8rem;
+}
+ .content1 .xia p{
+     font-size: 0.875rem;
+     margin-top: 0.55rem;
+}
+ .content1 .xia .li1, .content1 .xia .li3{
+     margin-right: 0.75rem;
+}
+ .content1 .xia .li1, .content1 .xia .li2{
+     margin-bottom: 0.75rem;
+}
+.content1 .xia span{
+    font-size: 1.75rem;
+    line-height: 4.4rem;
+}
+/*content1 end*/
+/*content2 begin*/
+.content2{
+     width: 16rem;
+     height: 12.95rem;
+     background-color: #2A78E7;
+}
+.content2 .shang{
+     width: 15.075rem;
+     margin-left: 0.45rem;
+}
+ .content2 .shang h4{
+     width: 14.825rem;
+     height:2.1rem;
+     line-height: 1rem;
+     font-size: 0.6rem;
+     color:#FAFCFF;
+     border-bottom: 0.025rem solid #487FEC;
+     padding-top: 0.95rem;
+}
+.content2 .shang .a1{
+     height: 0.525rem;
+     font-size: 0.525rem;
+     color: #CFDEFA;
+     margin-top: 0.475rem;
+}
+ .content2 .shang .a2{
+     width: 14.825rem;
+     height: 0.975rem;
+     color:#77A1F1;
+     font-family: '宋体';
+     font-size: 0.075rem;
+     margin-top: 0.4rem;
+}
+.content2 .xia{
+     width: 14.25rem;
+     height: 4.75rem;
+     margin-top:1.95rem;
+     margin-left: 0.9rem;
+     border:0.025rem solid #2A6FE8;
+}
+ .content2 .xia .shang{
+     width: 6.775rem;
+     height: 1.675rem;
+     margin-left: 3.725rem;
+     margin-top: 0.65rem;
+}
+ .content2 .xia .shang .zuo{
+     width:1.675rem;
+     height:1.675rem;
+     border-radius: 0.175rem;
+     background-color: #EDF3FD;
+}
+ .content2 .xia .shang .zuo span{
+     color: #447DEC;
+     font-size: 1rem;
+     margin-left: 0.225rem;
+     margin-top: 0.325rem;
+     line-height: 1.675rem;
+}
+ .content2 .xia .shang .you{
+     width: 4.325rem;
+     height: 1.575rem;
+}
+ .content2 .xia .you p{
+     color: #DCE8FB;
+     font-size: 0.4rem;
+}
+ .content2 .xia .you .p1{
+     margin-bottom: 0.35rem;
+}
+ .content2 .xia .bottom{
+     width: 13.25rem;
+     height: 1.375rem;
+     line-height: 1.375rem;
+     text-align: center;
+     border: 0.025rem solid #FFFFFF;
+     margin-bottom: 0.65rem;
+     color: #DCE8FB;
+     font-size: 0.4rem;
+     margin-top: 0.325rem;
+     margin-left: 0.475rem;
+}
+/*content2 end*/
+/*content3 begin*/
+.content3{
+     width: 15.075rem;
+     margin-left: 0.45rem;
+}
+ .content3 .shang{
+     height: 26.65rem;
+     margin-top:1.1rem;
+}
+ .content3 .shang .p1{
+     width: 15.075rem;
+     height: 9.3rem;
+     font-size: 0.65rem;
+     text-indent: 2em;
+     line-height: 1.125rem;
+}
+.content3 .shang .p2{
+     margin-top: 1.575rem;
+     width: 15.075rem;
+     height: 6.025rem;
+     font-size: 0.65rem;
+     text-indent: 2em;
+     line-height: 1.125rem;
+}
+.content3 .shang .p3{
+     margin-top: 1.5rem;
+     width: 15.075rem;
+     height:8.275rem;
+     font-size: 0.65rem;
+     text-indent: 2em;
+     line-height: 1.125rem;
+}
+.content3 .xia{
+     height: 15.875rem;
+}
+ .content3 .xia .img1{
+     width: 15.1rem;
+     height: 6.1rem;
+     margin-top: 0.9rem;
+}
+ .content3 .xia .img2{
+     width: 15.1rem;
+     height:9.775rem;
+}
+/*content3 end*/
+/*content4 begin*/
+.content4{
+     width: 15.075rem;
+     margin-left: 0.45rem;
+}
+.content4 .shang{
+     width:15.075rem;
+     height:10.275rem;
+     margin-top: 1.5rem;
+     position: relative;
+}
+ .content4 .p4{
+     line-height: 1.1rem;
+     font-size: 0.65rem;
+     color: #434343;
+     text-indent: 2em;
+}
+ .content4 .xia{
+     width: 15.075rem;
+     height: 8.2rem;
+     margin-bottom: 1.35rem;
+     margin-top:1.55rem;
+}
+.content4 .p5{
+     line-height: 1.1rem;
+     font-size: 0.65rem;
+     color: #434343;
+     text-indent: 2em;
+}
+/*content4 end*/
+/*侧边栏开始*/
+.aa{
+    position: fixed;
+    right: 2%;
+    bottom: 1%;
+    width: 2.5rem
+}
+.aa ul{
+    width:2.325rem;
+    height:8.65rem;
+}
+.aa li{
+    width:2.375rem;
+    height:2.375rem;
+    background-color: #0760E5;
+    font-size: 0.5rem;
+    color:#FFFFFF;
+    margin-bottom:0.1rem;
+}
+.aa  li .f1{
+    margin-left:0.2rem;
+}
+.aa  li span{
+    font-size:0.975rem;
+    margin:0.7rem;
+    line-height: 1.5rem;
+}
+/*侧边栏结束*/
+/*footer begin*/
+footer{
+     width: 16rem;
+     height:4.25rem;
+     background-color: #4A4A4A;
+}
+ footer p{
+     margin-left:0.45rem;
+     font-size:0.5rem;
+     color: #B4B3B3;
+     line-height:1.1rem;
+}
+ footer .span1{
+     margin-left:0.35rem;
+     margin-right:0.575rem;
+}
+ footer .span2{
+     margin-left:0.35rem;
+}
+ footer .span3{
+     margin-left:0.3rem;
+}
+/*footer end*/ 
